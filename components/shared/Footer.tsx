@@ -14,7 +14,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p>2023 Event-app. All Rights reserved.</p>
+        <p> {new Date().getFullYear()} Event-app. All Rights reserved.</p>
       </div>
     </footer>
   )
